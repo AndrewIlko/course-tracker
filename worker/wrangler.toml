@@ -1,0 +1,12 @@
+name = "worker"
+type = "webpack"
+
+account_id = "2ac6623bf934c603e6be7e9d9a856037"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2023-01-17"
+
+
+[vars]
+AIRTABLE_TABLE_NAME = "Table%201"
