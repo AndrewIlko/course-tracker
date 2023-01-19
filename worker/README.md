@@ -16,15 +16,15 @@ Further documentation for Wrangler can be found [here](https://developers.cloudf
 
 Install the worker CLI
 
-- npm i -g @cloudflare/wrangler
+- npm i -g @cloudflare/wrangler<br>
   Login to CloudFlare Workers
-- wrangler login
+- wrangler login<br>
   Generate worker
-- wrangler generate WORKER_NAME
+- wrangler generate WORKER_NAME<br>
   Copy CloudFlare account id
 - wrangler whoami
   and paste into the settings file wrangler.toml => account_id.
   Change "type" from "javascript" to "webpack".
   Publish your worker
-- wrangler publish
+- wrangler publish<br>
   -DONE.
